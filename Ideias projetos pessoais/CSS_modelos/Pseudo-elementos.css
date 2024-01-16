@@ -1,0 +1,28 @@
+<!--link normal-->
+a{
+  color:red;
+  font-weight:bold; <!--negrito-->
+}
+<!--se ja foi visitado-->
+a::visited{
+  color:darkred;
+  text-decoration:none; <!--o link estara sem sublinhado-->
+}
+<!--quando passar o cursor por cima do link-->
+a::hover{
+  color:black;
+  text-decoration:none;
+}
+<!--se clicado-->
+a::active{
+  color:green;
+  text-decoration:none;
+}
+<--afrente do link-->
+a::after{
+  content: '[link]';
+  text-decoration:none;
+  font-weight:normal;
+  color: darkgrey;
+}
+
