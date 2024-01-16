@@ -1,4 +1,9 @@
 body{/*ultilizar apenas esses 2 tipos de medidas*/
     font-size:16px;  /*tamanho normal da fonte*/
     font-size:1em; /*tamanho normal da fonte*/
+    
+    /*necessario da importação*/
+    font-weight:normal;/*peso da fonte(o quao grosso vai ser a fonte)---lighter->normal->bold->bolder*/
+
+    font-style: normal;
 }
