@@ -1,9 +1,14 @@
 body{/*ultilizar apenas esses 2 tipos de medidas*/
     font-size:16px;  /*tamanho normal da fonte*/
     font-size:1em; /*tamanho normal da fonte*/
+
+    text-align:center; /*local de alinhamento do texto*/
+    text-indent:20px; /*tamanho do espaço dado no primeiro paragrafo da esquerda para a direita*/
+
+
     
     /*necessario da importação*/
     font-weight:normal;/*peso da fonte(o quao grosso vai ser a fonte)---lighter->normal->bold->bolder*/
 
-    font-style: normal;
+    
 }
